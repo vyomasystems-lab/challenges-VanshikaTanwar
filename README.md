@@ -63,3 +63,6 @@ always @(A_in or B_in)
  end
 ```
 For the Magnitude Comparator Design, the logic should be ``A_in == B_in`` instead of ``A_in != B_in`` as in the design code.
+
+![image](https://user-images.githubusercontent.com/90523478/182229750-7af6bdd6-a818-41b9-a4f5-59f03876b4c9.png)
+
