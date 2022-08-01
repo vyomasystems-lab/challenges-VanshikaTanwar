@@ -62,4 +62,4 @@ always @(A_in or B_in)
         end
  end
 ```
-For the adder design, the logic should be ``a + b`` instead of ``a - b`` as in the design code.
+For the Magnitude Comparator Design, the logic should be ``A_in == B_in`` instead of ``A_in != B_in`` as in the design code.
