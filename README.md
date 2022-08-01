@@ -82,3 +82,8 @@ For the Magnitude Comparator Design, the logic should be ``A_in == B_in`` instea
 ## References
 
 https://github.com/VanshikaTanwar/dvsd_4bit_magnitude_comparator.git
+
+
+## Author
+
+- [Vanshika Tanwar](https://github.com/vanishka-tanwar), Bachelor of Technology in Electronics & Communication Engineering,Dronacharya Group of Institutions,Greater Noida, U.P.
