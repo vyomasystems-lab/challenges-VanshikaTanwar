@@ -79,3 +79,6 @@ For the Magnitude Comparator Design, the logic should be ``A_in == B_in`` instea
 ![image](https://user-images.githubusercontent.com/90523478/182229919-fad5de1a-1fbe-4f56-9b9e-2b042b021f28.png)
 
 
+## References
+
+https://github.com/VanshikaTanwar/dvsd_4bit_magnitude_comparator.git
