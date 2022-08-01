@@ -1,0 +1,38 @@
+# Simple tests for an comparator module
+import cocotb
+from cocotb.triggers import Timer
+import random
+
+@cocotb.test()
+async def test_dvsd_comp(dut):
+    """Test for 5 == 10"""
+
+    A_in = 5
+    B_in = 10
+
+    # input driving
+    dut.A_in.value = A_in
+    dut.B_in.value = B_in
+
+    await Timer(2, units='ns')
+
+    assert dut.equal_to.value == (A_in == B_in), f"Equal to result is incorrect: {dut.equal_to.value} != 5"
+
+@cocotb.test()
+async def dvsd_cmp_randomised_test(dut):
+    """Test for comparing 2 random numbers multiple times"""
+
+    for i in range(5):
+
+        A_in = random.randint(0, 5)
+        B_in = random.randint(0, 5)
+
+        dut.A_in.value = A_in
+        dut.B_in.value = B_in
+        print('Welcome to cocotb')
+
+        await Timer(2, units='ns')
+        
+        dut._log.info(f'A={A_in:05} B={B_in:05} model={A_in==B_in:5} DUT={int(dut.equal_to.value):5}')
+        assert dut.equal_to.value == (A_in == B_in), "Randomised test failed with: {A_in} == {B_in} = {EQUAL_TO}".format(
+            A_in=dut.A_in.value, B_in=dut.B_in.value, EQUAL_TO=dut.equal_to.value)
