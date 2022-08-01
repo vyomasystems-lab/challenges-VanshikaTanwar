@@ -1,0 +1,7 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1659366773" />
+    <testcase name="test_dvsd_comp" classname="test_dvsd_cmp" file="/workspace/challenges-VanshikaTanwar/level3_design/test_dvsd_cmp.py" lineno="6" time="0.0006005764007568359" sim_time_ns="2.001" ratio_time="3331.799247320365" />
+    <testcase name="dvsd_cmp_randomised_test" classname="test_dvsd_cmp" file="/workspace/challenges-VanshikaTanwar/level3_design/test_dvsd_cmp.py" lineno="22" time="0.0019466876983642578" sim_time_ns="10.001000000000001" ratio_time="5137.4444952847525" />
+  </testsuite>
+</testsuites>
