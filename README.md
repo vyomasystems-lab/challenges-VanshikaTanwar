@@ -66,3 +66,8 @@ For the Magnitude Comparator Design, the logic should be ``A_in == B_in`` instea
 
 ![image](https://user-images.githubusercontent.com/90523478/182229750-7af6bdd6-a818-41b9-a4f5-59f03876b4c9.png)
 
+
+![image](https://user-images.githubusercontent.com/90523478/182229861-073bfce7-aae4-45b4-9903-e55890979e52.png)
+
+
+![image](https://user-images.githubusercontent.com/90523478/182229919-fad5de1a-1fbe-4f56-9b9e-2b042b021f28.png)
